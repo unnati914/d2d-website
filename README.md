@@ -1,1 +1,3 @@
-# d2d-website
+# d2d
+
+Official website for D2D conference
