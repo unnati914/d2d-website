@@ -1,4 +1,4 @@
-import { Avatar, AvatarImage } from "./ui/avatar";
+
 import { Badge } from "./ui/badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import {
@@ -16,7 +16,7 @@ export const HeroCards = () => {
   return (
     <div className="hidden lg:flex flex-row flex-wrap gap-8 relative w-[700px] h-[500px]">
       {/* Testimonial */}
-      <Card className="absolute w-[340px] -top-[15px] drop-shadow-xl shadow-black/10 dark:shadow-white/10">
+      {/* <Card className="absolute w-[340px] -top-[15px] drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="flex flex-row items-center gap-4 pb-2">
           <Avatar>
             <AvatarImage alt="Arya Soni" src="/team/arya.png" />
@@ -29,7 +29,7 @@ export const HeroCards = () => {
         </CardHeader>
 
         <CardContent>Building Startup | DevOps @Zupee</CardContent>
-      </Card>
+      </Card> */}
 
       <Card className="absolute right-[20px] top-4 w-80 flex flex-col justify-center items-center drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="mt-8 flex justify-center items-center pb-2">
@@ -40,13 +40,13 @@ export const HeroCards = () => {
           />
           <CardTitle className="text-center">Unnati Chhabra</CardTitle>
           <CardDescription className="font-normal text-primary text-center">
-            Founder @D2D | SDE @Zomato | IGDTUW Alum | GitHub Campus Expert
+            Founder @CodXCrypt | SDE @Zomato | IGDTUW Alum | GitHub Campus Expert
           </CardDescription>
         </CardHeader>
 
         <CardContent className="text-center pb-2">
           <p>
-            Open-source Advocate, Mentor. Empowering 10K+. Former MLH Fellow,
+            Open-source Contributor, Mentor. Former MLH Fellow,
             Eclipse Adoptium Mentor.
           </p>
         </CardContent>
@@ -102,23 +102,23 @@ export const HeroCards = () => {
       <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <CardTitle className="flex item-center justify-between">
-            MEET UP
+            City Meetups
             <Badge variant="secondary" className="text-sm text-primary">
-              Comming Up
+              Coming Up
             </Badge>
           </CardTitle>
           <div>
-            <span className="text-3xl font-bold">7+ City's</span>
-            <span className="text-muted-foreground"> /month</span>
+            <span className="text-3xl font-bold">7+ Cities</span>
+            {/* <span className="text-muted-foreground"> /month</span> */}
           </div>
 
           <CardDescription>
-            Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.
+          City meetups are being planned because many students don’t find opportunities that help people with advice, job opportunities, and support, especially in areas like technology.
           </CardDescription>
         </CardHeader>
 
         <CardContent>
-          <Button className="w-full">Registration</Button>
+          <Button className="w-full"> <a href="https://lu.ma/JaipurCityMeetup"></a> Jaipur Registration</Button>
         </CardContent>
 
         <hr className="w-4/5 m-auto mb-4" />
@@ -137,7 +137,7 @@ export const HeroCards = () => {
         </CardFooter>
       </Card>
 
-      <Card className="absolute w-[350px] -right-[10px] bottom-[35px]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
+      {/* <Card className="absolute w-[350px] -right-[10px] bottom-[35px]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">
           <div className="mt-1 bg-primary/20 p-1 rounded-full">
             <Avatar>
@@ -151,7 +151,7 @@ export const HeroCards = () => {
             </CardDescription>
           </div>
         </CardHeader>
-      </Card>
+      </Card> */}
     </div>
   );
 };

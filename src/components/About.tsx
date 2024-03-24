@@ -20,21 +20,14 @@ export const About = () => {
                 D2D
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                CodxCrypt Community is established with the primary aim to
-                provide students with Coding Projects for freshers & assist them
-                in acing their interviews. It also provides relevant insights
-                into the different fields of emerging technologies in the
-                industry.
+              The D2D Conference, an initiative by CodXCrypt Community, shows how committed the organisation is to bringing people together, sharing knowledge, and helping professionals grow in the tech world. After three successful conference, the community aims to reach more cities like Bangalore, Jaipur, Dehradun, Vadodara,Chandigarh and Lucknow, making it a bigger and more engaging experience for students and professionals
               </p>
               <p className="text-xl text-muted-foreground mt-4">
-                With a team of highly trained young professionals & college
-                students, we try our best to work together & make significant
-                impacts.
+              A big advantage of the D2D Conference is that it's a great place to connect with others. It brings students, recent grads, experienced professionals, and industry experts together, creating an environment where people can make meaningful connections and build relationships that help everyone involved. Students especially benefit by getting to talk to people working in the industry, seeking advice, and learning about different career options. And it's not just for students – the conference is open to professionals too. It's a place where people in the industry can meet, share ideas, and stay informed about what's happening. Professionals can use the conference to hire a good pool of people, find collaboration opportunities, and stay in the loop about the latest innovations in their fields.
               </p>
+              
               <p className="text-xl text-muted-foreground mt-4">
-                As of July 2023, CodXCrypt Community is present in 3 Countries,
-                with a Community Size of 1000+ People & has a following of more
-                than 5K People spread throughout various Social Media Handles.
+              
               </p>
             </div>
             <Statistics />

@@ -5,55 +5,55 @@ interface SponsorProps {
 
 const sponsors: SponsorProps[] = [
   {
-    iconName: "/sponsors/devfolio.png",
-    name: "Devfolio",
+    iconName: "/sponsors/github.png",
+    name: "GitHub",
   },
-  {
-    iconName: "/sponsors/polygon.png",
-    name: "Polygon",
-  },
-  {
-    iconName: "/sponsors/solana.png",
-    name: "Solana",
-  },
-  {
-    iconName: "/sponsors/replit.png",
-    name: "Replit",
-  },
+  // {
+  //   iconName: "/sponsors/polygon.png",
+  //   name: "Polygon",
+  // },
+  // {
+  //   iconName: "/sponsors/solana.png",
+  //   name: "Solana",
+  // },
+  // {
+  //   iconName: "/sponsors/replit.png",
+  //   name: "Replit",
+  // },
 ];
 
 const communityPartners: SponsorProps[] = [
   {
-    iconName: "/sponsors/rooba.png",
-    name: "Sponsor 1",
+    iconName: "/sponsors/jaipur.png",
+    name: "Flutter Jaipur",
   },
   {
-    iconName: "/sponsors/spheron.png",
-    name: "Sponsor 1",
+    iconName: "/sponsors/xero.png",
+    name: "XeroCodee",
   },
   {
     iconName: "/sponsors/wasert.png",
-    name: "Sponsor 1",
+    name: "Wasserstoff",
   },
 ];
 
 const pastSponsors: SponsorProps[] = [
   {
-    iconName: "/sponsors/kube.png",
-    name: "Sponsor 1",
+    iconName: "/sponsors/wasert.png",
+    name: "Wasserstoff",
   },
-  {
-    iconName: "/sponsors/asset.jpg",
-    name: "Sponsor 1",
-  },
-  {
-    iconName: "/sponsors/jina.png",
-    name: "Sponsor 1",
-  },
-  {
-    iconName: "/sponsors/celestial.jpg",
-    name: "Sponsor 1",
-  },
+  // {
+  //   iconName: "/sponsors/asset.jpg",
+  //   name: "Sponsor 1",
+  // },
+  // {
+  //   iconName: "/sponsors/jina.png",
+  //   name: "Sponsor 1",
+  // },
+  // {
+  //   iconName: "/sponsors/celestial.jpg",
+  //   name: "Sponsor 1",
+  // },
 ];
 
 const SponsorSection = ({
@@ -96,7 +96,7 @@ export const Sponsors = () => {
     <>
       <SponsorSection title="Our Sponsors" sponsors={sponsors} />
       <SponsorSection title="Community Partners" sponsors={communityPartners} />
-      <SponsorSection title="Past Sponsors" sponsors={pastSponsors} />
+      <SponsorSection title="Hiring Partners" sponsors={pastSponsors} />
     </>
   );
 };
