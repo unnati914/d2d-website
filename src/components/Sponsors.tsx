@@ -6,100 +6,52 @@ interface SponsorProps {
 const sponsors: SponsorProps[] = [
   {
     iconName: "/sponsors/devfolio.png",
-    name: "Sponsor 1",
+    name: "Devfolio",
   },
   {
-    iconName: "/sponsors/devfolio.png",
-    name: "Sponsor 1",
+    iconName: "/sponsors/polygon.png",
+    name: "Polygon",
   },
   {
-    iconName: "/sponsors/devfolio.png",
-    name: "Sponsor 1",
+    iconName: "/sponsors/solana.png",
+    name: "Solana",
   },
   {
-    iconName: "/sponsors/devfolio.png",
-    name: "Sponsor 1",
-  },
-  {
-    iconName: "/sponsors/devfolio.png",
-    name: "Sponsor 1",
-  },
-  {
-    iconName: "/sponsors/devfolio.png",
-    name: "Sponsor 1",
-  },
-  {
-    iconName: "/sponsors/devfolio.png",
-    name: "Sponsor 1",
-  },
-  {
-    iconName: "/sponsors/devfolio.png",
-    name: "Sponsor 1",
+    iconName: "/sponsors/replit.png",
+    name: "Replit",
   },
 ];
 
 const communityPartners: SponsorProps[] = [
   {
-    iconName: "/sponsors/devfolio.png",
+    iconName: "/sponsors/rooba.png",
     name: "Sponsor 1",
   },
   {
-    iconName: "/sponsors/devfolio.png",
+    iconName: "/sponsors/spheron.png",
     name: "Sponsor 1",
   },
   {
-    iconName: "/sponsors/devfolio.png",
-    name: "Sponsor 1",
-  },
-  {
-    iconName: "/sponsors/devfolio.png",
-    name: "Sponsor 1",
-  },
-  {
-    iconName: "/sponsors/devfolio.png",
-    name: "Sponsor 1",
-  },
-  {
-    iconName: "/sponsors/devfolio.png",
-    name: "Sponsor 1",
-  },
-  {
-    iconName: "/sponsors/devfolio.png",
+    iconName: "/sponsors/wasert.png",
     name: "Sponsor 1",
   },
 ];
 
 const pastSponsors: SponsorProps[] = [
   {
-    iconName: "/sponsors/devfolio.png",
+    iconName: "/sponsors/kube.png",
     name: "Sponsor 1",
   },
   {
-    iconName: "/sponsors/devfolio.png",
+    iconName: "/sponsors/asset.jpg",
     name: "Sponsor 1",
   },
   {
-    iconName: "/sponsors/devfolio.png",
+    iconName: "/sponsors/jina.png",
     name: "Sponsor 1",
   },
   {
-    iconName: "/sponsors/devfolio.png",
-    name: "Sponsor 1",
-  },
-  {
-    iconName: "/sponsors/devfolio.png",
-    name: "Sponsor 1",
-  },
-  {
-    iconName: "/sponsors/devfolio.png",
-    name: "Sponsor 1",
-  },
-  {
-    iconName: "/sponsors/devfolio.png",
-    name: "Sponsor 1",
-  },
-  {
-    iconName: "/sponsors/devfolio.png",
+    iconName: "/sponsors/celestial.jpg",
     name: "Sponsor 1",
   },
 ];
