@@ -8,61 +8,18 @@ export const Footer = () => {
           <a href="/" className="font-bold text-xl flex">
             D2D
           </a>
+          <p>
+            Community for students, developers, designers, professionals, and
+            startups to connect, learn, and grow together in a supportive
+            environment.
+          </p>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Follow US</h3>
+          <h3 className="font-bold text-lg">Organization</h3>
           <div>
             <a href="#" className="opacity-60 hover:opacity-100">
-              Github
-            </a>
-          </div>
-
-          <div>
-            <a href="#" className="opacity-60 hover:opacity-100">
-              Twitter
-            </a>
-          </div>
-
-          <div>
-            <a href="#" className="opacity-60 hover:opacity-100">
-              Dribbble
-            </a>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Platforms</h3>
-          <div>
-            <a href="#" className="opacity-60 hover:opacity-100">
-              Web
-            </a>
-          </div>
-
-          <div>
-            <a href="#" className="opacity-60 hover:opacity-100">
-              Mobile
-            </a>
-          </div>
-
-          <div>
-            <a href="#" className="opacity-60 hover:opacity-100">
-              Desktop
-            </a>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">About</h3>
-          <div>
-            <a href="#" className="opacity-60 hover:opacity-100">
-              Features
-            </a>
-          </div>
-
-          <div>
-            <a href="#" className="opacity-60 hover:opacity-100">
-              Pricing
+              About
             </a>
           </div>
 
@@ -71,13 +28,66 @@ export const Footer = () => {
               FAQ
             </a>
           </div>
+
+          <div>
+            <a href="#" className="opacity-60 hover:opacity-100">
+              Newsletter
+            </a>
+          </div>
         </div>
 
         <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">Community</h3>
           <div>
             <a href="#" className="opacity-60 hover:opacity-100">
-              Youtube
+              Blog
+            </a>
+          </div>
+
+          <div>
+            <a href="#" className="opacity-60 hover:opacity-100">
+              Events
+            </a>
+          </div>
+
+          <div>
+            <a href="#" className="opacity-60 hover:opacity-100">
+              Webinars
+            </a>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <h3 className="font-bold text-lg">Socials</h3>
+          <div>
+            <a href="#" className="opacity-60 hover:opacity-100">
+              Instagram
+            </a>
+          </div>
+
+          <div>
+            <a href="#" className="opacity-60 hover:opacity-100">
+              Linkedin
+            </a>
+          </div>
+
+          <div>
+            <a href="#" className="opacity-60 hover:opacity-100">
+              Twitter
+            </a>
+          </div>
+          <div>
+            <a href="#" className="opacity-60 hover:opacity-100">
+              Github
+            </a>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <h3 className="font-bold text-lg">Contact</h3>
+          <div>
+            <a href="#" className="opacity-60 hover:opacity-100">
+              E-Mail
             </a>
           </div>
 
@@ -89,14 +99,14 @@ export const Footer = () => {
 
           <div>
             <a href="#" className="opacity-60 hover:opacity-100">
-              Twitch
+              Telegram
             </a>
           </div>
         </div>
       </section>
 
       <section className="container pb-14 text-center">
-        <h3>&copy; 2024 Developer 2 Developer : D2D</h3>
+        <h3>&copy; 2024 Developer-2-Developer : D2D | All rights reserved.</h3>
       </section>
     </footer>
   );
