@@ -1,4 +1,3 @@
-
 import { Badge } from "./ui/badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import {
@@ -40,14 +39,15 @@ export const HeroCards = () => {
           />
           <CardTitle className="text-center">Unnati Chhabra</CardTitle>
           <CardDescription className="font-normal text-primary text-center">
-            Founder @CodXCrypt | SDE @Zomato | IGDTUW Alum | GitHub Campus Expert
+            Founder @CodXCrypt | SDE @Zomato | IGDTUW Alum | GitHub Campus
+            Expert
           </CardDescription>
         </CardHeader>
 
         <CardContent className="text-center pb-2">
           <p>
-            Open-source Contributor, Mentor. Former MLH Fellow,
-            Eclipse Adoptium Mentor.
+            Open-source Contributor, Mentor. Former MLH Fellow, Eclipse Adoptium
+            Mentor.
           </p>
         </CardContent>
 
@@ -113,12 +113,17 @@ export const HeroCards = () => {
           </div>
 
           <CardDescription>
-          City meetups are being planned because many students don’t find opportunities that help people with advice, job opportunities, and support, especially in areas like technology.
+            City meetups are being planned because many students don’t find
+            opportunities that help people with advice, job opportunities, and
+            support, especially in areas like technology.
           </CardDescription>
         </CardHeader>
 
         <CardContent>
-          <Button className="w-full"> <a href="https://lu.ma/JaipurCityMeetup"></a> Jaipur Registration</Button>
+          <Button className="w-full">
+            {" "}
+            <a href="https://lu.ma/JaipurCityMeetup"></a> Jaipur Registration
+          </Button>
         </CardContent>
 
         <hr className="w-4/5 m-auto mb-4" />

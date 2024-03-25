@@ -15,12 +15,12 @@ interface TestimonialProps {
 const testimonials: TestimonialProps[] = [
   {
     name: "Ginni Pahwa",
-    comment: "D2D conference 3.0 was definitely the best event to kickstart 2024",
+    comment:
+      "D2D conference 3.0 was definitely the best event to kickstart 2024",
   },
   {
     name: "Aishvi Guleria",
-    comment:
-      "The D2D 3.0 had the vibe✅",
+    comment: "The D2D 3.0 had the vibe✅",
   },
 
   // {
@@ -66,32 +66,30 @@ export const Testimonials = () => {
       </h2>
 
       <p className="text-xl text-muted-foreground pt-4 pb-8">
-       Feedbacks are important for us!
+        Feedbacks are important for us!
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-2  lg:columns-3 lg:gap-6 mx-auto space-y-4 lg:space-y-6">
-        {testimonials.map(
-          ({ name, comment }: TestimonialProps) => (
-            <Card
-              // key={userName}
-              className="max-w-md md:break-inside-avoid overflow-hidden"
-            >
-              <CardHeader className="flex flex-row items-center gap-4 pb-2">
-                <Avatar>
-                  <AvatarImage alt="" src={""} />
-                  <AvatarFallback> D2D </AvatarFallback>
-                </Avatar>
+        {testimonials.map(({ name, comment }: TestimonialProps) => (
+          <Card
+            // key={userName}
+            className="max-w-md md:break-inside-avoid overflow-hidden"
+          >
+            <CardHeader className="flex flex-row items-center gap-4 pb-2">
+              <Avatar>
+                <AvatarImage alt="" src={""} />
+                <AvatarFallback> D2D </AvatarFallback>
+              </Avatar>
 
-                <div className="flex flex-col">
-                  <CardTitle className="text-lg">{name}</CardTitle>
-                  <CardDescription>{}</CardDescription>
-                </div>
-              </CardHeader>
+              <div className="flex flex-col">
+                <CardTitle className="text-lg">{name}</CardTitle>
+                <CardDescription>{}</CardDescription>
+              </div>
+            </CardHeader>
 
-              <CardContent>{comment}</CardContent>
-            </Card>
-          ),
-        )}
+            <CardContent>{comment}</CardContent>
+          </Card>
+        ))}
       </div>
     </section>
   );

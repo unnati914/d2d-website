@@ -30,7 +30,8 @@ const teamList: TeamProps[] = [
       { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+        name: "Twitter",
+        url: "https://twitter.com/Unnati_twts",
       },
     ],
   },
@@ -42,19 +43,25 @@ const teamList: TeamProps[] = [
       { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+        name: "Twitter",
+        url: "https://twitter.com/Unnati_twts",
       },
     ],
   },
   {
     imageUrl: "/team/akanksha.jpg",
     name: "Akanksha Kushwaha",
-    position: "Development Engineer @AlgoSec | Microsoft Certified: AZ-900, SC-900 | GHC Scholar’23",
+    position:
+      "Development Engineer @AlgoSec | Microsoft Certified: AZ-900, SC-900 | GHC Scholar’23",
     socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/akankshakushwaha/" },
+      {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/akankshakushwaha/",
+      },
       { name: "GitHub", url: "https://github.com/aku1310" },
       {
-        name: "Twitter", url: "https://twitter.com/Akanksha___13",
+        name: "Twitter",
+        url: "https://twitter.com/Akanksha___13",
       },
     ],
   },
@@ -66,19 +73,25 @@ const teamList: TeamProps[] = [
       { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+        name: "Twitter",
+        url: "https://twitter.com/Unnati_twts",
       },
     ],
   },
   {
     imageUrl: "/team/arushi.jpg",
     name: "Arushi Rana",
-    position: "BTech CSE Amity'26 | Website Development | Frontend developer | Design Team Member @ Software Engineering Club| UI-UX designer| Organizer @HerCode Microsoft Learn",
+    position:
+      "BTech CSE Amity'26 | Website Development | Frontend developer | Design Team Member @ Software Engineering Club| UI-UX designer| Organizer @HerCode Microsoft Learn",
     socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/arushi-rana-4849971bb" },
+      {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/arushi-rana-4849971bb",
+      },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+        name: "Twitter",
+        url: "https://twitter.com/Unnati_twts",
       },
     ],
   },
@@ -90,7 +103,8 @@ const teamList: TeamProps[] = [
       { name: "Linkedin", url: "https://linkedin.com/in/aryasoni/" },
       { name: "GitHub", url: "https://github.com/aryasoni98" },
       {
-        name: "Twitter", url: "https://twitter.com/aryasoni98",
+        name: "Twitter",
+        url: "https://twitter.com/aryasoni98",
       },
     ],
   },
@@ -102,19 +116,25 @@ const teamList: TeamProps[] = [
       { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+        name: "Twitter",
+        url: "https://twitter.com/Unnati_twts",
       },
     ],
   },
   {
     imageUrl: "/team/bhumika.jpg",
     name: "Bhumika Mandal",
-    position: "Software Developer | UI/UX designer | HTML & CSS | Web Developer | Python | My SQL | C | Java script",
+    position:
+      "Software Developer | UI/UX designer | HTML & CSS | Web Developer | Python | My SQL | C | Java script",
     socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/bhumika-mandal-572346251/" },
+      {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/bhumika-mandal-572346251/",
+      },
       { name: "GitHub", url: "https://github.com/bmandal05" },
       {
-        name: "Twitter", url: "https://x.com/BhumikaMan60307",
+        name: "Twitter",
+        url: "https://x.com/BhumikaMan60307",
       },
     ],
   },
@@ -126,7 +146,8 @@ const teamList: TeamProps[] = [
       { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+        name: "Twitter",
+        url: "https://twitter.com/Unnati_twts",
       },
     ],
   },
@@ -138,7 +159,8 @@ const teamList: TeamProps[] = [
       { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+        name: "Twitter",
+        url: "https://twitter.com/Unnati_twts",
       },
     ],
   },
@@ -150,19 +172,22 @@ const teamList: TeamProps[] = [
       { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+        name: "Twitter",
+        url: "https://twitter.com/Unnati_twts",
       },
     ],
   },
   {
     imageUrl: "/team/rajat.jpeg",
     name: "Rajat Rajput",
-    position: "President @ MLSC Amity | Alpha MLSA @ Microsoft | Core Team Member @ GDSC | Ex-Technical Lead @GFG Amity | CSE Undergrad",
+    position:
+      "President @ MLSC Amity | Alpha MLSA @ Microsoft | Core Team Member @ GDSC | Ex-Technical Lead @GFG Amity | CSE Undergrad",
     socialNetworks: [
       { name: "Linkedin", url: "https://linkedin.com/in/rajatrajput2004" },
       { name: "GitHub", url: "http://github.com/rajatuiwebdev" },
       {
-        name: "Twitter", url: "https://twitter.com/rajatuiwebdev",
+        name: "Twitter",
+        url: "https://twitter.com/rajatuiwebdev",
       },
     ],
   },
@@ -174,7 +199,8 @@ const teamList: TeamProps[] = [
       { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+        name: "Twitter",
+        url: "https://twitter.com/Unnati_twts",
       },
     ],
   },
@@ -186,7 +212,8 @@ const teamList: TeamProps[] = [
       { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+        name: "Twitter",
+        url: "https://twitter.com/Unnati_twts",
       },
     ],
   },
@@ -198,7 +225,8 @@ const teamList: TeamProps[] = [
       { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+        name: "Twitter",
+        url: "https://twitter.com/Unnati_twts",
       },
     ],
   },
@@ -210,7 +238,8 @@ const teamList: TeamProps[] = [
       { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+        name: "Twitter",
+        url: "https://twitter.com/Unnati_twts",
       },
     ],
   },
@@ -222,19 +251,22 @@ const teamList: TeamProps[] = [
       { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+        name: "Twitter",
+        url: "https://twitter.com/Unnati_twts",
       },
     ],
   },
   {
     imageUrl: "/team/vaishnavi.jpg",
     name: "Vaishnavi Pandey",
-    position: "Senior Software Engineer @PineLabs, Full Stack Developer | Ex-Tata1Mg | ex-Attentive OS | ex-IBM, Mentor - topmate",
+    position:
+      "Senior Software Engineer @PineLabs, Full Stack Developer | Ex-Tata1Mg | ex-Attentive OS | ex-IBM, Mentor - topmate",
     socialNetworks: [
       { name: "Linkedin", url: "https://www.linkedin.com/in/vaishnavi29" },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://www.x.com/vaishnavi0199",
+        name: "Twitter",
+        url: "https://www.x.com/vaishnavi0199",
       },
     ],
   },
@@ -246,31 +278,39 @@ const teamList: TeamProps[] = [
       { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+        name: "Twitter",
+        url: "https://twitter.com/Unnati_twts",
       },
     ],
   },
   {
     imageUrl: "https://i.pravatar.cc/150?img=60",
     name: "Vilsi Jain",
-    position: "Software Engineer at Crosscert | Google WTM Ambassador | Flutter Jaipur Organizer | Microsoft Azure developer community Organizer | Open source | Coding | Developer | Tech Speaker | Judge",
+    position:
+      "Software Engineer at Crosscert | Google WTM Ambassador | Flutter Jaipur Organizer | Microsoft Azure developer community Organizer | Open source | Coding | Developer | Tech Speaker | Judge",
     socialNetworks: [
       { name: "Linkedin", url: "https://www.linkedin.com/in/vilsijain08/" },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://twitter.com/VilsiJ",
+        name: "Twitter",
+        url: "https://twitter.com/VilsiJ",
       },
     ],
   },
   {
     imageUrl: "/team/vishrut.jpg",
     name: "Vishrut Aggarwal",
-    position: "Semi-finalist @Flipkart GRiD 5.0 | Microsoft Certified: AZ-900, SC-900 | LiFT Scholar'23 | Web Developer @Social | Full-Stack Developer | Competitive Programmer | Open Source Contributor",
+    position:
+      "Semi-finalist @Flipkart GRiD 5.0 | Microsoft Certified: AZ-900, SC-900 | LiFT Scholar'23 | Web Developer @Social | Full-Stack Developer | Competitive Programmer | Open Source Contributor",
     socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/vishrut-aggarwal/" },
+      {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/vishrut-aggarwal/",
+      },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://twitter.com/VishrutAggarwal",
+        name: "Twitter",
+        url: "https://twitter.com/VishrutAggarwal",
       },
     ],
   },
@@ -282,31 +322,39 @@ const teamList: TeamProps[] = [
       { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+        name: "Twitter",
+        url: "https://twitter.com/Unnati_twts",
       },
     ],
   },
   {
     imageUrl: "/team/yash.jpg",
     name: "Yash Khattar",
-    position: "Flutter Intern @UrbanRider | Flutter Lead @GDSC | SDC USICT | IIC Tech Head | Placement Coordinator at TnP Cell USICT | UI/UX | Btech IT'26",
+    position:
+      "Flutter Intern @UrbanRider | Flutter Lead @GDSC | SDC USICT | IIC Tech Head | Placement Coordinator at TnP Cell USICT | UI/UX | Btech IT'26",
     socialNetworks: [
       { name: "Linkedin", url: "https://www.linkedin.com/in/yash-khattar" },
       { name: "GitHub", url: "https://github.com/Yash-Khattar" },
       {
-        name: "Twitter", url: "https://twitter.com/Yash_khattar73",
+        name: "Twitter",
+        url: "https://twitter.com/Yash_khattar73",
       },
     ],
   },
   {
     imageUrl: "/team/yashna.HEIC",
     name: "Yashna Baweja",
-    position: "Web & UI Design | Frontend Development | Python | MySQL | C | HTML | CSS | Javascript",
+    position:
+      "Web & UI Design | Frontend Development | Python | MySQL | C | HTML | CSS | Javascript",
     socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/yashna-baweja-098305261" },
+      {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/yashna-baweja-098305261",
+      },
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Twitter", url: "https://x.com/bawejayashna?s=21",
+        name: "Twitter",
+        url: "https://x.com/bawejayashna?s=21",
       },
     ],
   },
