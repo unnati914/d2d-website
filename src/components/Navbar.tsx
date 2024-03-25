@@ -23,22 +23,22 @@ interface RouteProps {
 }
 
 const routeList: RouteProps[] = [
-  {
-    href: "#features",
-    label: "Features",
-  },
-  {
-    href: "#testimonials",
-    label: "Testimonials",
-  },
+  // {
+  //   href: "#features",
+  //   label: "Features",
+  // },
+  // {
+  //   href: "#testimonials",
+  //   label: "Testimonials",
+  // },
   // {
   //   href: "#pricing",
   //   label: "Pricing",
   // },
-  {
-    href: "#faq",
-    label: "FAQ",
-  },
+  // {
+  //   href: "#faq",
+  //   label: "FAQ",
+  // },
 ];
 
 export const Navbar = () => {
@@ -90,7 +90,7 @@ export const Navbar = () => {
                     })}`}
                   >
                     <ChatBubbleIcon className="mr-2 w-5 h-5" />
-                    Github
+                    GitHub
                   </a>
                 </nav>
               </SheetContent>
@@ -114,7 +114,7 @@ export const Navbar = () => {
 
           <div className="hidden md:flex gap-2">
             <a
-              href=""
+              href="https://chat.whatsapp.com/J6BzHTTOploAnSUnEViRv6"
               target="_blank"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >
