@@ -1,13 +1,13 @@
 import { buttonVariants } from "@/components/ui/button";
 import {
   Card,
-  CardContent,
+  // CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { Facebook, Linkedin, Twitter, Github } from "lucide-react";
 
 interface TeamProps {
   imageUrl: string;
@@ -23,59 +23,290 @@ interface SociaNetworkslProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "https://i.pravatar.cc/150?img=35",
-    name: "Emma Smith",
-    position: "Product Manager",
+    imageUrl: "/team/unnati.jpeg",
+    name: "Unnati Chhabra",
+    position: "Software Engineer @Zomato | IGDTUW Alum | GitHub Campus Expert",
     socialNetworks: [
-      { name: "Linkedin", url: "http://linkedin.com" },
+      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
+        name: "Twitter", url: "https://twitter.com/Unnati_twts",
       },
     ],
   },
   {
     imageUrl: "https://i.pravatar.cc/150?img=60",
-    name: "John Doe",
-    position: "Tech Lead",
+    name: "Aanchal Mishra",
+    position: "Core Team Member",
     socialNetworks: [
-      { name: "Linkedin", url: "http://linkedin.com" },
+      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
+        name: "Twitter", url: "https://twitter.com/Unnati_twts",
       },
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=36",
-    name: "Ashley Ross",
-    position: "Frontend Developer",
+    imageUrl: "/team/akanksha.jpg",
+    name: "Akanksha Kushwaha",
+    position: "Development Engineer @AlgoSec | Microsoft Certified: AZ-900, SC-900 | GHC Scholar’23",
     socialNetworks: [
-      { name: "Linkedin", url: "http://linkedin.com" },
-
+      { name: "Linkedin", url: "https://www.linkedin.com/in/akankshakushwaha/" },
+      { name: "GitHub", url: "https://github.com/aku1310" },
       {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
+        name: "Twitter", url: "https://twitter.com/Akanksha___13",
       },
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=17",
-    name: "Bruce Rogers",
-    position: "Backend Developer",
+    imageUrl: "/team/ananya.jpg",
+    name: "Ananya Nagar",
+    position: "Core Team Member",
     socialNetworks: [
-      { name: "Linkedin", url: "http://linkedin.com" },
+      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
       {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
+        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+      },
+    ],
+  },
+  {
+    imageUrl: "/team/arushi.jpg",
+    name: "Arushi Rana",
+    position: "BTech CSE Amity'26 | Website Development | Frontend developer | Design Team Member @ Software Engineering Club| UI-UX designer| Organizer @HerCode Microsoft Learn",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/arushi-rana-4849971bb" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
+      {
+        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+      },
+    ],
+  },
+  {
+    imageUrl: "/team/arya.png",
+    name: "Arya Soni",
+    position: "Building Startup | DevOps @Zupee | DevOps & Cloud Enthusiast",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://linkedin.com/in/aryasoni/" },
+      { name: "GitHub", url: "https://github.com/aryasoni98" },
+      {
+        name: "Twitter", url: "https://twitter.com/aryasoni98",
+      },
+    ],
+  },
+  {
+    imageUrl: "/team/ayush.jpg",
+    name: "Ayush Kumar",
+    position: "Core Team Member",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
+      {
+        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+      },
+    ],
+  },
+  {
+    imageUrl: "/team/bhumika.jpg",
+    name: "Bhumika Mandal",
+    position: "Software Developer | UI/UX designer | HTML & CSS | Web Developer | Python | My SQL | C | Java script",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/bhumika-mandal-572346251/" },
+      { name: "GitHub", url: "https://github.com/bmandal05" },
+      {
+        name: "Twitter", url: "https://x.com/BhumikaMan60307",
+      },
+    ],
+  },
+  {
+    imageUrl: "/team/lavanya.JPG",
+    name: "Lavanya Jain",
+    position: "Core Team Member",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
+      {
+        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+      },
+    ],
+  },
+  {
+    imageUrl: "https://i.pravatar.cc/150?img=60",
+    name: "Nitish",
+    position: "Core Team Member",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
+      {
+        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+      },
+    ],
+  },
+  {
+    imageUrl: "/team/priyanshi.jpg",
+    name: "Priyanshi Rai",
+    position: "Core Team Member",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
+      {
+        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+      },
+    ],
+  },
+  {
+    imageUrl: "/team/rajat.jpeg",
+    name: "Rajat Rajput",
+    position: "President @ MLSC Amity | Alpha MLSA @ Microsoft | Core Team Member @ GDSC | Ex-Technical Lead @GFG Amity | CSE Undergrad",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://linkedin.com/in/rajatrajput2004" },
+      { name: "GitHub", url: "http://github.com/rajatuiwebdev" },
+      {
+        name: "Twitter", url: "https://twitter.com/rajatuiwebdev",
+      },
+    ],
+  },
+  {
+    imageUrl: "https://i.pravatar.cc/150?img=60",
+    name: "Saifuddin Saifee",
+    position: "Core Team Member",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
+      {
+        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+      },
+    ],
+  },
+  {
+    imageUrl: "/team/shefali.jpeg",
+    name: "Shefali Kanojia",
+    position: "Core Team Member",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
+      {
+        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+      },
+    ],
+  },
+  {
+    imageUrl: "https://i.pravatar.cc/150?img=60",
+    name: "Sujal Maiti",
+    position: "Core Team Member",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
+      {
+        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+      },
+    ],
+  },
+  {
+    imageUrl: "/team/sushant.jpeg",
+    name: "Sushant Ardent",
+    position: "Core Team Member",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
+      {
+        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+      },
+    ],
+  },
+  {
+    imageUrl: "https://i.pravatar.cc/150?img=60",
+    name: "Tiya Bansal",
+    position: "Core Team Member",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
+      {
+        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+      },
+    ],
+  },
+  {
+    imageUrl: "/team/vaishnavi.jpg",
+    name: "Vaishnavi Pandey",
+    position: "Senior Software Engineer @PineLabs, Full Stack Developer | Ex-Tata1Mg | ex-Attentive OS | ex-IBM, Mentor - topmate",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/vaishnavi29" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
+      {
+        name: "Twitter", url: "https://www.x.com/vaishnavi0199",
+      },
+    ],
+  },
+  {
+    imageUrl: "/team/vasay.png",
+    name: "Vasay",
+    position: "Core Team Member",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
+      {
+        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+      },
+    ],
+  },
+  {
+    imageUrl: "https://i.pravatar.cc/150?img=60",
+    name: "Vilsi Jain",
+    position: "Software Engineer at Crosscert | Google WTM Ambassador | Flutter Jaipur Organizer | Microsoft Azure developer community Organizer | Open source | Coding | Developer | Tech Speaker | Judge",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/vilsijain08/" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
+      {
+        name: "Twitter", url: "https://twitter.com/VilsiJ",
+      },
+    ],
+  },
+  {
+    imageUrl: "/team/vishrut.jpg",
+    name: "Vishrut Aggarwal",
+    position: "Semi-finalist @Flipkart GRiD 5.0 | Microsoft Certified: AZ-900, SC-900 | LiFT Scholar'23 | Web Developer @Social | Full-Stack Developer | Competitive Programmer | Open Source Contributor",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/vishrut-aggarwal/" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
+      {
+        name: "Twitter", url: "https://twitter.com/VishrutAggarwal",
+      },
+    ],
+  },
+  {
+    imageUrl: "https://i.pravatar.cc/150?img=60",
+    name: "Vraj Desai",
+    position: "Core Team Member",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
+      {
+        name: "Twitter", url: "https://twitter.com/Unnati_twts",
+      },
+    ],
+  },
+  {
+    imageUrl: "/team/yash.jpg",
+    name: "Yash Khattar",
+    position: "Flutter Intern @UrbanRider | Flutter Lead @GDSC | SDC USICT | IIC Tech Head | Placement Coordinator at TnP Cell USICT | UI/UX | Btech IT'26",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/yash-khattar" },
+      { name: "GitHub", url: "https://github.com/Yash-Khattar" },
+      {
+        name: "Twitter", url: "https://twitter.com/Yash_khattar73",
+      },
+    ],
+  },
+  {
+    imageUrl: "/team/yashna.HEIC",
+    name: "Yashna Baweja",
+    position: "Web & UI Design | Frontend Development | Python | MySQL | C | HTML | CSS | Javascript",
+    socialNetworks: [
+      { name: "Linkedin", url: "https://www.linkedin.com/in/yashna-baweja-098305261" },
+      { name: "GitHub", url: "https://github.com/unnati914" },
+      {
+        name: "Twitter", url: "https://x.com/bawejayashna?s=21",
       },
     ],
   },
@@ -90,8 +321,11 @@ export const Team = () => {
       case "Facebook":
         return <Facebook size="20" />;
 
-      case "Instagram":
-        return <Instagram size="20" />;
+      case "GitHub":
+        return <Github size="20" />;
+
+      case "Twitter":
+        return <Twitter size="20" />;
     }
   };
 
@@ -101,7 +335,7 @@ export const Team = () => {
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           Our Dedicated{" "}
         </span>
-        Crew
+        Team
       </h2>
 
       <p className="mt-4 mb-10 text-xl text-muted-foreground">
@@ -128,9 +362,9 @@ export const Team = () => {
                 </CardDescription>
               </CardHeader>
 
-              <CardContent className="text-center pb-2">
+              {/* <CardContent className="text-center pb-2">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </CardContent>
+              </CardContent> */}
 
               <CardFooter>
                 {socialNetworks.map(({ name, url }: SociaNetworkslProps) => (
