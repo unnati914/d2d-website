@@ -60,7 +60,10 @@ export const Footer = () => {
         <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">Socials</h3>
           <div>
-            <a href="https://instagram.com/d2d_conference" className="opacity-60 hover:opacity-100">
+            <a
+              href="https://instagram.com/d2d_conference"
+              className="opacity-60 hover:opacity-100"
+            >
               Instagram
             </a>
           </div>
@@ -72,7 +75,10 @@ export const Footer = () => {
           </div> */}
 
           <div>
-            <a href="https://twitter.com/d2dconf" className="opacity-60 hover:opacity-100">
+            <a
+              href="https://twitter.com/d2dconf"
+              className="opacity-60 hover:opacity-100"
+            >
               Twitter
             </a>
           </div>
@@ -86,7 +92,10 @@ export const Footer = () => {
         <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">Contact</h3>
           <div>
-            <a href="mailto:d2dconf@gmail.com" className="opacity-60 hover:opacity-100">
+            <a
+              href="mailto:d2dconf@gmail.com"
+              className="opacity-60 hover:opacity-100"
+            >
               E-Mail
             </a>
           </div>
