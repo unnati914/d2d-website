@@ -37,8 +37,8 @@ const communityPartners: SponsorProps[] = [
   },
   {
     iconName: "/sponsors/open.jpeg",
-    name: "OpenGig"
-  }
+    name: "OpenGig",
+  },
 ];
 
 const pastSponsors: SponsorProps[] = [
@@ -48,8 +48,8 @@ const pastSponsors: SponsorProps[] = [
   },
   {
     iconName: "/sponsors/open.jpeg",
-    name: "OpenGig"
-  }
+    name: "OpenGig",
+  },
   // {
   //   iconName: "/sponsors/asset.jpg",
   //   name: "Sponsor 1",
