@@ -82,16 +82,16 @@ const teamList: TeamProps[] = [
     imageUrl: "/team/arushi.jpg",
     name: "Arushi Rana",
     position:
-      "BTech CSE Amity'26 | Website Development | Frontend developer | Design Team Member @ Software Engineering Club| UI-UX designer| Organizer @HerCode Microsoft Learn",
+      "Frontend developer | Design Team Member @ Software Engineering Club| UI-UX designer|Organizer @HerCode Microsoft Learn",
     socialNetworks: [
       {
         name: "Linkedin",
         url: "https://www.linkedin.com/in/arushi-rana-4849971bb",
       },
-      { name: "GitHub", url: "https://github.com/" },
+      { name: "GitHub", url: "https://github.com/arushiranaaa" },
       {
         name: "Twitter",
-        url: "https://twitter.com/",
+        url: "https://twitter.com/aarushirana07",
       },
     ],
   },
@@ -213,26 +213,13 @@ const teamList: TeamProps[] = [
   {
     imageUrl: "/team/shefali.jpeg",
     name: "Shefali Kanojia",
-    position: "Core Team Member",
+    position: "Frontend Developer",
     socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/" },
-      { name: "GitHub", url: "https://github.com/" },
+      { name: "Linkedin", url: "https://www.linkedin.com/in/shefalik16/" },
+      { name: "GitHub", url: "https://github.com/shefali12-ab" },
       {
         name: "Twitter",
-        url: "https://twitter.com/",
-      },
-    ],
-  },
-  {
-    imageUrl: "https://i.pravatar.cc/150?img=60",
-    name: "Sujal Maiti",
-    position: "Core Team Member",
-    socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/" },
-      { name: "GitHub", url: "https://github.com/" },
-      {
-        name: "Twitter",
-        url: "https://twitter.com/",
+        url: "https://twitter.com/shefali_kanojia",
       },
     ],
   },
@@ -337,7 +324,7 @@ const teamList: TeamProps[] = [
     imageUrl: "/team/yash.jpg",
     name: "Yash Khattar",
     position:
-      "Flutter Intern @UrbanRider | Flutter Lead @GDSC | SDC USICT | IIC Tech Head | Placement Coordinator at TnP Cell USICT | UI/UX | Btech IT'26",
+      "Flutter Lead @ GDSC USICT | Developer @ UrbanRider | Gopher | ⚡",
     socialNetworks: [
       { name: "Linkedin", url: "https://www.linkedin.com/in/yash-khattar" },
       { name: "GitHub", url: "https://github.com/Yash-Khattar" },
@@ -348,16 +335,16 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "/team/yashna.HEIC",
+    imageUrl: "/team/yashna.jpeg",
     name: "Yashna Baweja",
     position:
-      "Web & UI Design | Frontend Development | Python | MySQL | C | HTML | CSS | Javascript",
+      "Organizer @ HerCode | Mentee @ Codess.Cafe |  UI/UX Designer | Website Development | CSE Undergrad",
     socialNetworks: [
       {
         name: "Linkedin",
         url: "https://www.linkedin.com/in/yashna-baweja-098305261",
       },
-      { name: "GitHub", url: "https://github.com/" },
+      { name: "GitHub", url: "https://github.com/ybaweja04" },
       {
         name: "Twitter",
         url: "https://x.com/bawejayashna?s=21",
