@@ -35,12 +35,20 @@ const communityPartners: SponsorProps[] = [
     iconName: "/sponsors/wasert.png",
     name: "Wasserstoff",
   },
+  {
+    iconName: "/sponsors/open.jpeg",
+    name: "OpenGig",
+  },
 ];
 
 const pastSponsors: SponsorProps[] = [
   {
     iconName: "/sponsors/wasert.png",
     name: "Wasserstoff",
+  },
+  {
+    iconName: "/sponsors/open.jpeg",
+    name: "OpenGig",
   },
   // {
   //   iconName: "/sponsors/asset.jpg",
