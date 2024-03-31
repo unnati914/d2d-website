@@ -17,14 +17,13 @@ export const About = () => {
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                   Our Initiative ❤️{" "}
                 </span>
-                D2D
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
                 The D2D Conference, an initiative by CodXCrypt Community, shows
                 how committed the organisation is to bringing people together,
                 sharing knowledge, and helping professionals grow in the tech
                 world. After three successful conference, the community aims to
-                reach more cities like Bangalore, Jaipur, Dehradun,
+                reach more cities like Bangalore, Jaipur, Dehradun,Mumbai
                 Vadodara,Chandigarh and Lucknow, making it a bigger and more
                 engaging experience for students and professionals
               </p>
