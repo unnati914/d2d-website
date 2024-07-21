@@ -122,7 +122,7 @@ export const HeroCards = () => {
         <CardContent>
           <Button className="w-full">
             {" "}
-            <a href="https://lu.ma/JaipurCityMeetup"></a> Jaipur Registration
+            <a href="https://lu.ma/ixvfmg5b"></a> Delhi Registration
           </Button>
         </CardContent>
 

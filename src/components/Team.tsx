@@ -35,19 +35,19 @@ const teamList: TeamProps[] = [
       },
     ],
   },
-  {
-    imageUrl: "https://i.pravatar.cc/150?img=60",
-    name: "Aanchal Mishra",
-    position: "Core Team Member",
-    socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
-      { name: "GitHub", url: "https://github.com/unnati914" },
-      {
-        name: "Twitter",
-        url: "https://twitter.com/Unnati_twts",
-      },
-    ],
-  },
+  // {
+  //   imageUrl: "https://i.pravatar.cc/150?img=60",
+  //   name: "Aanchal Mishra",
+  //   position: "Core Team Member",
+  //   socialNetworks: [
+  //     { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+  //     { name: "GitHub", url: "https://github.com/unnati914" },
+  //     {
+  //       name: "Twitter",
+  //       url: "https://twitter.com/Unnati_twts",
+  //     },
+  //   ],
+  // },
   {
     imageUrl: "/team/akanksha.jpg",
     name: "Akanksha Kushwaha",
@@ -65,19 +65,19 @@ const teamList: TeamProps[] = [
       },
     ],
   },
-  {
-    imageUrl: "/team/ananya.jpg",
-    name: "Ananya Nagar",
-    position: "Core Team Member",
-    socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
-      { name: "GitHub", url: "https://github.com/unnati914" },
-      {
-        name: "Twitter",
-        url: "https://twitter.com/Unnati_twts",
-      },
-    ],
-  },
+  // {
+  //   imageUrl: "/team/ananya.jpg",
+  //   name: "Ananya Nagar",
+  //   position: "Core Team Member",
+  //   socialNetworks: [
+  //     { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+  //     { name: "GitHub", url: "https://github.com/unnati914" },
+  //     {
+  //       name: "Twitter",
+  //       url: "https://twitter.com/Unnati_twts",
+  //     },
+  //   ],
+  // },
   {
     imageUrl: "/team/arushi.jpg",
     name: "Arushi Rana",
@@ -88,10 +88,10 @@ const teamList: TeamProps[] = [
         name: "Linkedin",
         url: "https://www.linkedin.com/in/arushi-rana-4849971bb",
       },
-      { name: "GitHub", url: "https://github.com/unnati914" },
+      { name: "GitHub", url: "" },
       {
         name: "Twitter",
-        url: "https://twitter.com/Unnati_twts",
+        url: "",
       },
     ],
   },
@@ -117,12 +117,12 @@ const teamList: TeamProps[] = [
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
         name: "Twitter",
-        url: "https://twitter.com/Unnati_twts",
+        url: "",
       },
     ],
   },
   {
-    imageUrl: "/team/bhumika.jpg",
+    imageUrl: "/team/bhumikaa.jpg",
     name: "Bhumika Mandal",
     position:
       "Software Developer | UI/UX designer | HTML & CSS | Web Developer | Python | My SQL | C | Java script",
@@ -139,6 +139,22 @@ const teamList: TeamProps[] = [
     ],
   },
   {
+    imageUrl: "/team/dev.jpg",
+    name: "Dev Sharma",
+    position: "Software Developer | Speaker | Typescript | Ex Zomato, Airbnb",
+    socialNetworks: [
+      {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/cryptus-neoxys/",
+      },
+      { name: "GitHub", url: "" },
+      {
+        name: "Twitter",
+        url: "",
+      },
+    ],
+  },
+  {
     imageUrl: "/team/lavanya.JPG",
     name: "Lavanya Jain",
     position: "Core Team Member",
@@ -147,33 +163,33 @@ const teamList: TeamProps[] = [
       { name: "GitHub", url: "https://github.com/unnati914" },
       {
         name: "Twitter",
-        url: "https://twitter.com/Unnati_twts",
+        url: "",
       },
     ],
   },
-  {
-    imageUrl: "https://i.pravatar.cc/150?img=60",
-    name: "Nitish",
-    position: "Core Team Member",
-    socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
-      { name: "GitHub", url: "https://github.com/unnati914" },
-      {
-        name: "Twitter",
-        url: "https://twitter.com/Unnati_twts",
-      },
-    ],
-  },
+  // {
+  //   imageUrl: "https://i.pravatar.cc/150?img=60",
+  //   name: "Nitish",
+  //   position: "Core Team Member",
+  //   socialNetworks: [
+  //     { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+  //     { name: "GitHub", url: "https://github.com/unnati914" },
+  //     {
+  //       name: "Twitter",
+  //       url: "https://twitter.com/Unnati_twts",
+  //     },
+  //   ],
+  // },
   {
     imageUrl: "/team/priyanshi.jpg",
     name: "Priyanshi Rai",
     position: "Core Team Member",
     socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
-      { name: "GitHub", url: "https://github.com/unnati914" },
+      { name: "Linkedin", url: "" },
+      { name: "GitHub", url: "" },
       {
         name: "Twitter",
-        url: "https://twitter.com/Unnati_twts",
+        url: "",
       },
     ],
   },
@@ -191,45 +207,45 @@ const teamList: TeamProps[] = [
       },
     ],
   },
-  {
-    imageUrl: "https://i.pravatar.cc/150?img=60",
-    name: "Saifuddin Saifee",
-    position: "Core Team Member",
-    socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
-      { name: "GitHub", url: "https://github.com/unnati914" },
-      {
-        name: "Twitter",
-        url: "https://twitter.com/Unnati_twts",
-      },
-    ],
-  },
-  {
-    imageUrl: "/team/shefali.jpeg",
-    name: "Shefali Kanojia",
-    position: "Core Team Member",
-    socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
-      { name: "GitHub", url: "https://github.com/unnati914" },
-      {
-        name: "Twitter",
-        url: "https://twitter.com/Unnati_twts",
-      },
-    ],
-  },
-  {
-    imageUrl: "https://i.pravatar.cc/150?img=60",
-    name: "Sujal Maiti",
-    position: "Core Team Member",
-    socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
-      { name: "GitHub", url: "https://github.com/unnati914" },
-      {
-        name: "Twitter",
-        url: "https://twitter.com/Unnati_twts",
-      },
-    ],
-  },
+  // {
+  //   imageUrl: "https://i.pravatar.cc/150?img=60",
+  //   name: "Saifuddin Saifee",
+  //   position: "Core Team Member",
+  //   socialNetworks: [
+  //     { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+  //     { name: "GitHub", url: "https://github.com/unnati914" },
+  //     {
+  //       name: "Twitter",
+  //       url: "https://twitter.com/Unnati_twts",
+  //     },
+  //   ],
+  // },
+  // {
+  //   imageUrl: "/team/shefali.jpeg",
+  //   name: "Shefali Kanojia",
+  //   position: "Core Team Member",
+  //   socialNetworks: [
+  //     { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+  //     { name: "GitHub", url: "https://github.com/unnati914" },
+  //     {
+  //       name: "Twitter",
+  //       url: "https://twitter.com/Unnati_twts",
+  //     },
+  //   ],
+  // },
+  // {
+  //   imageUrl: "https://i.pravatar.cc/150?img=60",
+  //   name: "Sujal Maiti",
+  //   position: "Core Team Member",
+  //   socialNetworks: [
+  //     { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+  //     { name: "GitHub", url: "https://github.com/unnati914" },
+  //     {
+  //       name: "Twitter",
+  //       url: "https://twitter.com/Unnati_twts",
+  //     },
+  //   ],
+  // },
   {
     imageUrl: "/team/sushant.jpeg",
     name: "Sushant Ardent",
@@ -243,60 +259,99 @@ const teamList: TeamProps[] = [
       },
     ],
   },
+  // {
+  //   imageUrl: "https://i.pravatar.cc/150?img=60",
+  //   name: "Tiya Bansal",
+  //   position: "Core Team Member",
+  //   socialNetworks: [
+  //     { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+  //     { name: "GitHub", url: "https://github.com/unnati914" },
+  //     {
+  //       name: "Twitter",
+  //       url: "https://twitter.com/Unnati_twts",
+  //     },
+  //   ],
+  // },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=60",
-    name: "Tiya Bansal",
-    position: "Core Team Member",
+    imageUrl: "/team/yashank.JPG",
+    name: "Yashank",
+    position: "Upcoming Speaker for D2D Meetup",
     socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
-      { name: "GitHub", url: "https://github.com/unnati914" },
+      { name: "Linkedin", url: "" },
+      { name: "GitHub", url: "" },
       {
         name: "Twitter",
-        url: "https://twitter.com/Unnati_twts",
+        url: "",
       },
     ],
   },
   {
-    imageUrl: "/team/vaishnavi.jpg",
-    name: "Vaishnavi Pandey",
-    position:
-      "Senior Software Engineer @PineLabs, Full Stack Developer | Ex-Tata1Mg | ex-Attentive OS | ex-IBM, Mentor - topmate",
+    imageUrl: "team/yashika.jpg",
+    name: "Yashika Chugh",
+    position: "Speaker at Jaipur and Chandigarh Meetup",
     socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/vaishnavi29" },
-      { name: "GitHub", url: "https://github.com/unnati914" },
+      { name: "Linkedin", url: "" },
+      { name: "GitHub", url: "" },
       {
         name: "Twitter",
-        url: "https://www.x.com/vaishnavi0199",
+        url: "",
       },
     ],
   },
   {
-    imageUrl: "/team/vasay.png",
-    name: "Vasay",
-    position: "Core Team Member",
+    imageUrl: "team/anmoll.png",
+    name: "Anmol",
+    position: "Speaker at Chandigarh Meetup",
     socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
-      { name: "GitHub", url: "https://github.com/unnati914" },
+      { name: "Linkedin", url: "" },
+      { name: "GitHub", url: "" },
       {
         name: "Twitter",
-        url: "https://twitter.com/Unnati_twts",
+        url: "",
       },
     ],
   },
-  {
-    imageUrl: "https://i.pravatar.cc/150?img=60",
-    name: "Vilsi Jain",
-    position:
-      "Software Engineer at Crosscert | Google WTM Ambassador | Flutter Jaipur Organizer | Microsoft Azure developer community Organizer | Open source | Coding | Developer | Tech Speaker | Judge",
-    socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/vilsijain08/" },
-      { name: "GitHub", url: "https://github.com/unnati914" },
-      {
-        name: "Twitter",
-        url: "https://twitter.com/VilsiJ",
-      },
-    ],
-  },
+  // {
+  //   imageUrl: "/team/vaishnavi.jpg",
+  //   name: "Vaishnavi Pandey",
+  //   position:
+  //     "Senior Software Engineer @PineLabs, Full Stack Developer | Ex-Tata1Mg | ex-Attentive OS | ex-IBM, Mentor - topmate",
+  //   socialNetworks: [
+  //     { name: "Linkedin", url: "https://www.linkedin.com/in/vaishnavi29" },
+  //     { name: "GitHub", url: "https://github.com/unnati914" },
+  //     {
+  //       name: "Twitter",
+  //       url: "https://www.x.com/vaishnavi0199",
+  //     },
+  //   ],
+  // },
+  // {
+  //   imageUrl: "/team/vasay.png",
+  //   name: "Vasay",
+  //   position: "Core Team Member",
+  //   socialNetworks: [
+  //     { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+  //     { name: "GitHub", url: "https://github.com/unnati914" },
+  //     {
+  //       name: "Twitter",
+  //       url: "https://twitter.com/Unnati_twts",
+  //     },
+  //   ],
+  // },
+  // {
+  //   imageUrl: "https://i.pravatar.cc/150?img=60",
+  //   name: "Vilsi Jain",
+  //   position:
+  //     "Software Engineer at Crosscert | Google WTM Ambassador | Flutter Jaipur Organizer | Microsoft Azure developer community Organizer | Open source | Coding | Developer | Tech Speaker | Judge",
+  //   socialNetworks: [
+  //     { name: "Linkedin", url: "https://www.linkedin.com/in/vilsijain08/" },
+  //     { name: "GitHub", url: "https://github.com/unnati914" },
+  //     {
+  //       name: "Twitter",
+  //       url: "https://twitter.com/VilsiJ",
+  //     },
+  //   ],
+  // },
   {
     imageUrl: "/team/vishrut.jpg",
     name: "Vishrut Aggarwal",
@@ -314,19 +369,19 @@ const teamList: TeamProps[] = [
       },
     ],
   },
-  {
-    imageUrl: "https://i.pravatar.cc/150?img=60",
-    name: "Vraj Desai",
-    position: "Core Team Member",
-    socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
-      { name: "GitHub", url: "https://github.com/unnati914" },
-      {
-        name: "Twitter",
-        url: "https://twitter.com/Unnati_twts",
-      },
-    ],
-  },
+  // {
+  //   imageUrl: "https://i.pravatar.cc/150?img=60",
+  //   name: "Vraj Desai",
+  //   position: "Core Team Member",
+  //   socialNetworks: [
+  //     { name: "Linkedin", url: "" },
+  //     { name: "GitHub", url: "" },
+  //     {
+  //       name: "Twitter",
+  //       url: "",
+  //     },
+  //   ],
+  // },
   {
     imageUrl: "/team/yash.jpg",
     name: "Yash Khattar",
@@ -342,7 +397,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "/team/yashna.HEIC",
+    imageUrl: "/team/yashna.jpg",
     name: "Yashna Baweja",
     position:
       "Web & UI Design | Frontend Development | Python | MySQL | C | HTML | CSS | Javascript",
@@ -351,7 +406,7 @@ const teamList: TeamProps[] = [
         name: "Linkedin",
         url: "https://www.linkedin.com/in/yashna-baweja-098305261",
       },
-      { name: "GitHub", url: "https://github.com/unnati914" },
+      { name: "GitHub", url: "" },
       {
         name: "Twitter",
         url: "https://x.com/bawejayashna?s=21",
