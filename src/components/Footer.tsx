@@ -6,7 +6,7 @@ export const Footer = () => {
       <section className="container py-20 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8">
         <div className="col-span-full xl:col-span-2">
           <a href="/" className="font-bold text-xl flex">
-            D2D
+            CodXCrypt
           </a>
           <p>
             Community for students, developers, designers, professionals, and
@@ -115,7 +115,7 @@ export const Footer = () => {
       </section>
 
       <section className="container pb-14 text-center">
-        <h3>&copy; 2024 Developer-2-Developer : D2D | All rights reserved.</h3>
+        <h3>&copy; 2024 CodXCrypt : CodXCrypt | All rights reserved.</h3>
       </section>
     </footer>
   );
