@@ -22,19 +22,19 @@ interface SociaNetworkslProps {
 }
 
 const teamList: TeamProps[] = [
-  {
-    imageUrl: "/team/unnati.jpeg",
-    name: "Unnati Chhabra",
-    position: "Software Engineer @Zomato | IGDTUW Alum | GitHub Campus Expert",
-    socialNetworks: [
-      { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
-      { name: "GitHub", url: "https://github.com/unnati914" },
-      {
-        name: "Twitter",
-        url: "https://twitter.com/Unnati_twts",
-      },
-    ],
-  },
+  // {
+  //   imageUrl: "/team/unnati.jpeg",
+  //   name: "Unnati Chhabra",
+  //   position: "Software Engineer @Zomato | IGDTUW Alum | GitHub Campus Expert",
+  //   socialNetworks: [
+  //     { name: "Linkedin", url: "https://www.linkedin.com/in/unnati-chhabra-/" },
+  //     { name: "GitHub", url: "https://github.com/unnati914" },
+  //     {
+  //       name: "Twitter",
+  //       url: "https://twitter.com/Unnati_twts",
+  //     },
+  //   ],
+  // },
   {
     imageUrl: "https://i.pravatar.cc/150?img=60",
     name: "Aanchal Mishra",

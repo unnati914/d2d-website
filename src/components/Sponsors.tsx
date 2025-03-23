@@ -102,9 +102,12 @@ const SponsorSection = ({
 export const Sponsors = () => {
   return (
     <>
-      <SponsorSection title="Our Sponsors" sponsors={sponsors} />
-      <SponsorSection title="Community Partners" sponsors={communityPartners} />
-      <SponsorSection title="Hiring Partners" sponsors={pastSponsors} />
+      <SponsorSection title="Past Conference Sponsors" sponsors={sponsors} />
+      <SponsorSection
+        title="Past Conference Community Partners"
+        sponsors={communityPartners}
+      />
+      <SponsorSection title="Past Hiring Partners" sponsors={pastSponsors} />
     </>
   );
 };

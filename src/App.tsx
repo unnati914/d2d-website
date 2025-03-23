@@ -7,7 +7,7 @@ import { Newsletter } from "./components/Newsletter";
 // import { Pricing } from "./components/Pricing";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { Sponsors } from "./components/Sponsors";
-import { Team } from "./components/Team";
+// import { Team } from "./components/Team";
 import { Testimonials } from "./components/Testimonials";
 import "./App.css";
 
@@ -23,7 +23,7 @@ function App() {
       {/* <Services /> */}
       {/* <Cta /> */}
       <Testimonials />
-      <Team />
+      {/* <Team /> */}
       {/* <Pricing /> */}
       <Newsletter />
       {/* <FAQ /> */}

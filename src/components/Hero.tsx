@@ -10,7 +10,7 @@ export const Hero = () => {
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-              Developer-2-Developer
+              CodXCrypt Community
             </span>{" "}
             {/* Development */}
           </h1>{" "}

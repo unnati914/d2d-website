@@ -16,44 +16,30 @@ import { ChatBubbleIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
+import { Checkout } from "./Checkout"; // Import Checkout modal
 
 interface RouteProps {
   href: string;
   label: string;
 }
 
-const routeList: RouteProps[] = [
-  // {
-  //   href: "#features",
-  //   label: "Features",
-  // },
-  // {
-  //   href: "#testimonials",
-  //   label: "Testimonials",
-  // },
-  // {
-  //   href: "#pricing",
-  //   label: "Pricing",
-  // },
-  // {
-  //   href: "#faq",
-  //   label: "FAQ",
-  // },
-];
+const routeList: RouteProps[] = [];
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [isCheckoutOpen, setIsCheckoutOpen] = useState<boolean>(false); // Checkout modal state
+
   return (
     <header className="sticky border-b-[1px] top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
       <NavigationMenu className="mx-auto">
         <NavigationMenuList className="container h-14 px-4 w-screen flex justify-between ">
           <NavigationMenuItem className="font-bold flex">
             <a href="/" className="ml-2 font-bold text-xl flex">
-              D2D
+              CodXCrypt
             </a>
           </NavigationMenuItem>
 
-          {/* mobile */}
+          {/* Mobile Menu */}
           <span className="flex md:hidden">
             <ModeToggle />
 
@@ -69,7 +55,9 @@ export const Navbar = () => {
 
               <SheetContent side={"left"}>
                 <SheetHeader>
-                  <SheetTitle className="font-bold text-xl">D2D</SheetTitle>
+                  <SheetTitle className="font-bold text-xl">
+                    CodXCrypt
+                  </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">
                   {routeList.map(({ href, label }: RouteProps) => (
@@ -97,7 +85,7 @@ export const Navbar = () => {
             </Sheet>
           </span>
 
-          {/* desktop */}
+          {/* Desktop Navigation */}
           <nav className="hidden md:flex gap-2">
             {routeList.map((route: RouteProps, i) => (
               <a
@@ -123,9 +111,23 @@ export const Navbar = () => {
             </a>
 
             <ModeToggle />
+
+            {/* Checkout Button to open modal */}
+            <button
+              onClick={() => setIsCheckoutOpen(true)}
+              className={`border px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700`}
+            >
+              Checkout
+            </button>
           </div>
         </NavigationMenuList>
       </NavigationMenu>
+
+      {/* Checkout Modal */}
+      <Checkout
+        isOpen={isCheckoutOpen}
+        onClose={() => setIsCheckoutOpen(false)}
+      />
     </header>
   );
 };
