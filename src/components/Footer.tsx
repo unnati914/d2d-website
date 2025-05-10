@@ -6,12 +6,10 @@ export const Footer = () => {
       <section className="container py-20 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8">
         <div className="col-span-full xl:col-span-2">
           <a href="/" className="font-bold text-xl flex">
-            CodXCrypt
+            Hirvana
           </a>
           <p>
-            Community for students, developers, designers, professionals, and
-            startups to connect, learn, and grow together in a supportive
-            environment.
+           Hirvana is a mixture of AI Powered tools and the best of the best mentorship cohort
           </p>
         </div>
 
@@ -61,10 +59,10 @@ export const Footer = () => {
           <h3 className="font-bold text-lg">Socials</h3>
           <div>
             <a
-              href="https://instagram.com/d2d_conference"
+              href="https://x.com/hirvanaa"
               className="opacity-60 hover:opacity-100"
             >
-              Instagram
+              Twitter
             </a>
           </div>
 
@@ -74,14 +72,14 @@ export const Footer = () => {
             </a>
           </div> */}
 
-          <div>
+          {/* <div>
             <a
               href="https://twitter.com/d2dconf"
               className="opacity-60 hover:opacity-100"
             >
               Twitter
             </a>
-          </div>
+          </div> */}
           {/* <div>
             <a href="#" className="opacity-60 hover:opacity-100">
               Github
@@ -93,7 +91,7 @@ export const Footer = () => {
           <h3 className="font-bold text-lg">Contact</h3>
           <div>
             <a
-              href="mailto:d2dconf@gmail.com"
+              href="mailto:hirvanaa@gmail.com"
               className="opacity-60 hover:opacity-100"
             >
               E-Mail
@@ -115,7 +113,7 @@ export const Footer = () => {
       </section>
 
       <section className="container pb-14 text-center">
-        <h3>&copy; 2024 CodXCrypt : CodXCrypt | All rights reserved.</h3>
+        <h3>&copy; 2024 Hirvana : Hirvana | All rights reserved.</h3>
       </section>
     </footer>
   );

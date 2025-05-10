@@ -16,7 +16,6 @@ import { ChatBubbleIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
-import { Checkout } from "./Checkout"; // Import Checkout modal
 
 interface RouteProps {
   href: string;
@@ -27,7 +26,6 @@ const routeList: RouteProps[] = [];
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const [isCheckoutOpen, setIsCheckoutOpen] = useState<boolean>(false); // Checkout modal state
 
   return (
     <header className="sticky border-b-[1px] top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
@@ -35,7 +33,7 @@ export const Navbar = () => {
         <NavigationMenuList className="container h-14 px-4 w-screen flex justify-between ">
           <NavigationMenuItem className="font-bold flex">
             <a href="/" className="ml-2 font-bold text-xl flex">
-              CodXCrypt
+              Hirvana
             </a>
           </NavigationMenuItem>
 
@@ -55,9 +53,7 @@ export const Navbar = () => {
 
               <SheetContent side={"left"}>
                 <SheetHeader>
-                  <SheetTitle className="font-bold text-xl">
-                    CodXCrypt
-                  </SheetTitle>
+                  <SheetTitle className="font-bold text-xl">Hirvana</SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">
                   {routeList.map(({ href, label }: RouteProps) => (
@@ -101,33 +97,29 @@ export const Navbar = () => {
           </nav>
 
           <div className="hidden md:flex gap-2">
-            <a
+            {/* <a
               href="https://chat.whatsapp.com/J6BzHTTOploAnSUnEViRv6"
               target="_blank"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >
               <ChatBubbleIcon className="mr-2 w-5 h-5" />
               HELLO!
-            </a>
+            </a> */}
 
             <ModeToggle />
 
-            {/* Checkout Button to open modal */}
-            <button
-              onClick={() => setIsCheckoutOpen(true)}
-              className={`border px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700`}
+            {/* Join the Waitlist Button (Desktop only) */}
+            <a
+              href="https://forms.gle/fUZoogSfLStuZKdZA" // Replace this with your actual waitlist Google Form link
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700"
             >
-              Checkout
-            </button>
+              Join the Waitlist
+            </a>
           </div>
         </NavigationMenuList>
       </NavigationMenu>
-
-      {/* Checkout Modal */}
-      <Checkout
-        isOpen={isCheckoutOpen}
-        onClose={() => setIsCheckoutOpen(false)}
-      />
     </header>
   );
 };

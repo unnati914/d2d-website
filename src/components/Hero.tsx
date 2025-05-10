@@ -10,7 +10,7 @@ export const Hero = () => {
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-              CodXCrypt Community
+              Hirvana
             </span>{" "}
             {/* Development */}
           </h1>{" "}
@@ -23,9 +23,9 @@ export const Hero = () => {
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          Community for students, developers, designers, professionals, and
-          startups to connect, learn, and grow together in a supportive
-          environment.
+          Hirvana is a mixture of AI Powered tools and the best of the best
+          mentorship cohort. We are here to help you grow in your career and
+          become a better developer
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
