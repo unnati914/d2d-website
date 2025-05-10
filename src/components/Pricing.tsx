@@ -26,48 +26,58 @@ interface PricingProps {
 
 const pricingList: PricingProps[] = [
   {
-    title: "Free",
+    title: "Basic",
     popular: 0,
-    price: 0,
+    price: 500,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
+      "Basic plan is for those who are just starting out and need a simple solution.",
     buttonText: "Get Started",
     benefitList: [
-      "1 Team member",
-      "2 GB Storage",
-      "Upto 4 pages",
+      "Resume Revamp",
+      "5 mock interviews",
+      "Upto 30 days",
       "Community support",
-      "lorem ipsum dolor",
+      "Interview preparation",
+    ],
+  },
+  {
+    title: "Standard",
+    popular: 1,
+    price: 1000,
+    description:
+      "Standard plan is for those who are looking for a more comprehensive solution.",
+    buttonText: "Get Started",
+    benefitList: [
+      "Resume Revamp",
+      "10 mock interviews",
+      "Upto 45 days",
+      "Priority support",
+      "Interview preparation",
+      "1:1 mentorship",
+      "AI job search",
     ],
   },
   {
     title: "Premium",
-    popular: 1,
-    price: 5,
-    description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Start Free Trial",
-    benefitList: [
-      "4 Team member",
-      "4 GB Storage",
-      "Upto 6 pages",
-      "Priority support",
-      "lorem ipsum dolor",
-    ],
-  },
-  {
-    title: "Enterprise",
     popular: 0,
-    price: 40,
+    price: 2000,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Contact US",
+      "Premium plan is for those who need a custom solution for themselves.",
+    buttonText: "Get Started",
     benefitList: [
-      "10 Team member",
-      "8 GB Storage",
-      "Upto 10 pages",
+      "Resume Revamp",
+      "15 mock interviews",
+      "Upto 60 days",
       "Priority support",
-      "lorem ipsum dolor",
+      "Interview preparation",
+      "1:1 mentorship",
+      "AI job search",
+      "Custom projects",
+      "AI Job Apply",
+      "AI Resume Builder",
+      "LinkedIn Profile Review",
+      "Job Tracker",
+      "Linkedin Extension"
     ],
   },
 ];
@@ -84,8 +94,7 @@ export const Pricing = () => {
         Access
       </h2>
       <h3 className="text-xl text-center text-muted-foreground pt-4 pb-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-        reiciendis.
+        Choose a plan that fits your needs. No hidden fees, no surprises.
       </h3>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {pricingList.map((pricing: PricingProps) => (
@@ -107,7 +116,7 @@ export const Pricing = () => {
                 ) : null}
               </CardTitle>
               <div>
-                <span className="text-3xl font-bold">${pricing.price}</span>
+                <span className="text-3xl font-bold">₹ {pricing.price}</span>
                 <span className="text-muted-foreground"> /month</span>
               </div>
 

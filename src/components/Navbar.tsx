@@ -115,7 +115,7 @@ export const Navbar = () => {
               rel="noopener noreferrer"
               className="border px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700"
             >
-              Join the Waitlist
+              Registeration Link
             </a>
           </div>
         </NavigationMenuList>

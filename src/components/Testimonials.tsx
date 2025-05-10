@@ -14,13 +14,13 @@ interface TestimonialProps {
 
 const testimonials: TestimonialProps[] = [
   {
-    name: "Ginni Pahwa",
+    name: "Mentee 1",
     comment:
-      "D2D conference 3.0 was definitely the best event to kickstart 2024",
+      "All doubts getting answered.",
   },
   {
-    name: "Aishvi Guleria",
-    comment: "The D2D 3.0 had the vibe✅",
+    name: "Mentee 2",
+    comment: "Expectations of interviewer",
   },
 
   // {
@@ -62,7 +62,7 @@ export const Testimonials = () => {
           {" "}
           People Love{" "}
         </span>
-        This Community
+        This Tool
       </h2>
 
       <p className="text-xl text-muted-foreground pt-4 pb-8">
@@ -78,7 +78,7 @@ export const Testimonials = () => {
             <CardHeader className="flex flex-row items-center gap-4 pb-2">
               <Avatar>
                 <AvatarImage alt="" src={""} />
-                <AvatarFallback> D2D </AvatarFallback>
+                <AvatarFallback> </AvatarFallback>
               </Avatar>
 
               <div className="flex flex-col">

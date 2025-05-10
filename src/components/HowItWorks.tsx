@@ -10,27 +10,27 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Accesibility",
+    title: " Mentee Registers",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Mentee registers for the program and fills out a form with their details.",
   },
   {
     icon: <MapIcon />,
-    title: "Community",
+    title: "Confirmation of Registration",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Mentee receives a confirmation email with details of the program.",
   },
   {
     icon: <PlaneIcon />,
-    title: "Scalability",
+    title: "Mentor Assigned",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Mentee is assigned a mentor based on their profile and preferences.",
   },
   {
     icon: <GiftIcon />,
-    title: "Gamification",
+    title: "Mentorship Begins",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Mentee and mentor start the mentorship program with an introductory call.",
   },
 ];
 
@@ -45,8 +45,7 @@ export const HowItWorks = () => {
         Step-by-Step Guide
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+       Hirvana mentorship program step by step guide to help you grow in your career
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
