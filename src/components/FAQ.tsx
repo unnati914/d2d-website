@@ -13,34 +13,40 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free ChadcnUI template.",
+    question: "How personalized is the AI agent’s resume editing?",
+    answer:
+      "The AI resume editor is fully personalized — it tailors resumes based on the user's target role, experience level, and job description. It rewrites bullet points, adjusts formatting, and aligns the content with industry-standard keywords and impact metrics.",
     value: "item-1",
   },
   {
-    question: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+    question: "How does the AI prioritize and apply to jobs?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "The AI uses job scraping and ranking logic to find high-match opportunities based on skill-job overlap, location, and intent. It then auto-fills job applications or queues them with tailored cover letters for one-click submission.",
     value: "item-2",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet  Consectetur natus dolores minus quibusdam?",
+    question: "Can users interact with the AI in real-time for quick edits or questions?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
+      "Yes, the AI is accessible through a chatbot-style interface for live queries, real-time resume feedback, and career navigation support. Users can ask for instant edits, role-specific resume tuning, or job strategy input.",
     value: "item-3",
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "What training data or models power the AI?",
+    answer:
+      "The AI is powered by fine-tuned OpenAI models and career-specific prompt engineering, trained on thousands of real job descriptions, successful resumes, and hiring manager insights. It integrates with vector search (pgvector) for contextual recall.",
     value: "item-4",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus?",
+    question: "How does the AI agent work and help users?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "The AI acts like a personalized career co-pilot — scanning job markets, tailoring resumes, suggesting job matches, and helping users prepare for interviews. It automates the grunt work while keeping users in control.",
     value: "item-5",
+  },
+  {
+    question: "Does the AI learn and improve based on user performance?",
+    answer:
+      "Yes, user feedback loops (such as interview call-backs and job click-throughs) are used to improve future recommendations, prioritizations, and resume suggestions.",
+    value: "item-6",
   },
 ];
 

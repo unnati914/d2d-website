@@ -1,7 +1,7 @@
 import { Button } from "./ui/button";
-import { buttonVariants } from "./ui/button";
+// import { buttonVariants } from "./ui/button";
 import { HeroCards } from "./HeroCards";
-import { InstagramLogoIcon } from "@radix-ui/react-icons";
+// import { InstagramLogoIcon } from "@radix-ui/react-icons";
 
 export const Hero = () => {
   return (
@@ -31,15 +31,15 @@ export const Hero = () => {
         <div className="space-y-4 md:space-y-0 md:space-x-4">
           <Button className="w-full md:w-1/3">
             <a
-              href="https://www.linkedin.com/company/codxcryptcommunity/"
+              href="https://x.com/hirvanaa"
               target="_blank"
               rel="noopener noreferrer"
             >
-              LinkedIn
+              Twitter
             </a>
           </Button>
 
-          <a
+          {/* <a
             href="https://www.instagram.com/d2d_conference?igsh=MW1ja3BhODMxODU4eg=="
             target="_blank"
             className={`w-full md:w-1/3 ${buttonVariants({
@@ -48,7 +48,7 @@ export const Hero = () => {
           >
             Instagram
             <InstagramLogoIcon className="ml-2 w-5 h-5" />
-          </a>
+          </a> */}
         </div>
       </div>
 

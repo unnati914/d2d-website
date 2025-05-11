@@ -6,9 +6,9 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import image from "../assets/growth.png";
-import image3 from "../assets/reflecting.png";
-import image4 from "../assets/looking-ahead.png";
+import imageAI from "../assets/growth.png";
+import imageChat from "../assets/reflecting.png";
+import imageCareer from "../assets/looking-ahead.png";
 
 interface FeatureProps {
   title: string;
@@ -18,44 +18,44 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
+    title: "AI-Powered Resume Editor",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    image: image4,
+      "Tailors your resume to match job descriptions, rewrites bullet points with industry keywords, and aligns it with recruiter expectations in seconds.",
+    image: imageAI,
   },
   {
-    title: "Intuitive user interface",
+    title: "Real-time Chat Interface",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    image: image3,
+      "Interact with Hirvana's chatbot for instant resume edits, career advice, job application strategies, and feedback — anytime, anywhere.",
+    image: imageChat,
   },
   {
-    title: "AI-Powered insights",
+    title: "Career Copilot & Mentorship",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    image: image,
+      "Combines AI recommendations with weekly guidance from industry mentors to help you prepare, apply, and grow confidently in your career.",
+    image: imageCareer,
   },
 ];
 
 const featureList: string[] = [
-  "Dark/Light theme",
-  "Reviews",
-  "Features",
-  // "Pricing",
-  "Contact form",
-  "Our team",
-  "Responsive design",
-  "Newsletter",
-  "Minimalist",
+  "Resume Editing",
+  "Live AI Chat",
+  "Job Matching",
+  "Cover Letter Gen",
+  "Mentorship Support",
+  "Career Feedback",
+  "Progress Tracking",
+  "Real-time Interaction",
+  "Vector Search Memory",
 ];
 
 export const Features = () => {
   return (
     <section id="features" className="container py-24 sm:py-32 space-y-8">
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Many{" "}
+        What Makes{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Great Features
+          Hirvana Powerful
         </span>
       </h2>
 
@@ -81,7 +81,7 @@ export const Features = () => {
             <CardFooter>
               <img
                 src={image}
-                alt="About feature"
+                alt={title}
                 className="w-[200px] lg:w-[300px] mx-auto"
               />
             </CardFooter>

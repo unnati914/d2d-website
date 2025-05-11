@@ -1,4 +1,4 @@
-import { Statistics } from "./Statistics";
+// import { Statistics } from "./Statistics";
 import pilot from "../assets/pilot.png";
 
 export const About = () => {
@@ -8,51 +8,35 @@ export const About = () => {
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
           <img
             src={pilot}
-            alt=""
+            alt="Hirvana AI Career Copilot"
             className="w-[300px] object-contain rounded-lg"
           />
-          <div className="bg-green-0 flex flex-col justify-between">
+          <div className="flex flex-col justify-between">
             <div className="pb-6">
               <h2 className="text-3xl md:text-4xl font-bold">
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-                  Our Initiative ❤️{" "}
+                  What is Hirvana? 🚀
                 </span>
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                <strong>Mock Interview Package – ₹1000</strong>
-                <br />- Real interview experience with industry professionals -
-                Personalized feedback on strengths and areas for improvement -
-                Practice both technical and HR interview rounds - Resume review
-                to optimize job applications - Best for students, fresh
-                graduates, and professionals switching jobs
+                <strong>Hirvana is your AI-powered career copilot + human mentorship platform.</strong><br />
+                It helps you discover the right opportunities, improve your application strategy, and accelerate your job readiness with smart tools and personalized guidance.
               </p>
+
               <p className="text-xl text-muted-foreground mt-4">
-                <strong>Job Interview & Referral Package – ₹1000</strong>
-                <br />- Direct access to job interview opportunities - Exclusive
-                referrals to top companies - Insights on hiring trends, salary
-                expectations, and company cultures - One-on-one career guidance
-                from experienced professionals - Best for professionals aiming
-                to enter or advance in top tech firms
+                <strong>✨ AI Resume & Job Assistant</strong><br />
               </p>
+
               <p className="text-xl text-muted-foreground mt-4">
-                <strong>Why Choose CodXCrypt’s Career Packages?</strong>
-                <br />- Face real-world interview scenarios with expert guidance
-                - Improve problem-solving, communication, and interview
-                performance - Get resume feedback to increase job chances - Gain
-                access to an extensive hiring network - Learn industry insights
-                to stay ahead in the job market - Affordable investment of ₹1000
-                per package for high career growth - Build confidence and get
-                noticed by top companies
+                <strong>🤝 Personalized Mentorship Support</strong><br />
               </p>
+
+
               <p className="text-xl text-muted-foreground mt-4">
-                Whether you're a student, job seeker, or working professional,
-                these career packages provide the right guidance, exposure, and
-                opportunities to help you grow. Prepare effectively, stand out
-                to top companies, and take your career to the next level with
-                CodXCrypt Community!
+                Whether you're starting out or switching paths, Hirvana empowers you to take the next big step in your career.
               </p>
             </div>
-            <Statistics />
+            {/* <Statistics /> */}
           </div>
         </div>
       </div>

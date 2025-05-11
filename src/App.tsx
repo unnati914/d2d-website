@@ -1,5 +1,5 @@
 import { About } from "./components/About";
-// import { FAQ } from "./components/FAQ";
+import { FAQ } from "./components/FAQ";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
@@ -12,7 +12,7 @@ import { Testimonials } from "./components/Testimonials";
 import { HowItWorks } from "./components/HowItWorks";
 import { Pricing } from "./components/Pricing";
 import { Features } from "./components/Features";
-import {Services} from "./components/Services";
+// import {Services} from "./components/Services";
 import "./App.css";
 
 function App() {
@@ -24,13 +24,13 @@ function App() {
       <About />
       <HowItWorks />
       <Features />
-      <Services />
+      {/* <Services /> */}
       {/* <Cta /> */}
       <Testimonials />
       {/* <Team /> */}
        <Pricing />
       {/* <Newsletter /> */}
-      {/* <FAQ /> */}
+      <FAQ />
       <Footer />
       <ScrollToTop />
     </>

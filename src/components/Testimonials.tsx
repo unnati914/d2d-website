@@ -15,42 +15,20 @@ interface TestimonialProps {
 const testimonials: TestimonialProps[] = [
   {
     name: "Mentee 1",
-    comment:
-      "All doubts getting answered.",
+    comment: "All doubts getting answered clearly during the sessions.",
   },
   {
     name: "Mentee 2",
-    comment: "Expectations of interviewer",
+    comment: "Mock interviews helped me understand what interviewers expect.",
   },
-
-  // {
-  //   image: "#",
-  //   name: "John Doe React",
-  //   userName: "@john_Doe2",
-  //   comment:
-  //     "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
-  // },
-  // {
-  //   image: "#",
-  //   name: "John Doe React",
-  //   userName: "@john_Doe3",
-  //   comment:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-  // },
-  // {
-  //   image: "#",
-  //   name: "John Doe React",
-  //   userName: "@john_Doe4",
-  //   comment:
-  //     "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud.",
-  // },
-  // {
-  //   image: "#",
-  //   name: "John Doe React",
-  //   userName: "@john_Doe5",
-  //   comment:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  // },
+  {
+    name: "Mentee 3",
+    comment: "Resume review was spot on. I got more replies after updating it.",
+  },
+  {
+    name: "Mentee 4",
+    comment: "Loved the weekend prep—super productive and structured!",
+  },
 ];
 
 export const Testimonials = () => {
@@ -60,34 +38,30 @@ export const Testimonials = () => {
         Discover Why
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           {" "}
-          People Love{" "}
+          Developers Love Hirvana
         </span>
-        This Tool
       </h2>
 
       <p className="text-xl text-muted-foreground pt-4 pb-8">
-        Feedbacks are important for us!
+        Real feedback from mentees who grew with us.
       </p>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-2  lg:columns-3 lg:gap-6 mx-auto space-y-4 lg:space-y-6">
-        {testimonials.map(({ name, comment }: TestimonialProps) => (
-          <Card
-            // key={userName}
-            className="max-w-md md:break-inside-avoid overflow-hidden"
-          >
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {testimonials.map(({ name, comment }, index) => (
+          <Card key={index} className="max-w-md mx-auto">
             <CardHeader className="flex flex-row items-center gap-4 pb-2">
               <Avatar>
-                <AvatarImage alt="" src={""} />
-                <AvatarFallback> </AvatarFallback>
+                <AvatarImage src="" alt={name} />
+                <AvatarFallback>{name.charAt(0)}</AvatarFallback>
               </Avatar>
-
               <div className="flex flex-col">
                 <CardTitle className="text-lg">{name}</CardTitle>
-                <CardDescription>{}</CardDescription>
+                <CardDescription>Mentee</CardDescription>
               </div>
             </CardHeader>
-
-            <CardContent>{comment}</CardContent>
+            <CardContent className="text-sm text-muted-foreground">
+              {comment}
+            </CardContent>
           </Card>
         ))}
       </div>
