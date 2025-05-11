@@ -45,7 +45,8 @@ export const HowItWorks = () => {
         Step-by-Step Guide
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-       Hirvana mentorship program step by step guide to help you grow in your career
+        Hirvana mentorship program step by step guide to help you grow in your
+        career
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

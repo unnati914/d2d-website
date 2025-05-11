@@ -25,7 +25,8 @@ const FAQList: FAQProps[] = [
     value: "item-2",
   },
   {
-    question: "Can users interact with the AI in real-time for quick edits or questions?",
+    question:
+      "Can users interact with the AI in real-time for quick edits or questions?",
     answer:
       "Yes, the AI is accessible through a chatbot-style interface for live queries, real-time resume feedback, and career navigation support. Users can ask for instant edits, role-specific resume tuning, or job strategy input.",
     value: "item-3",

@@ -9,7 +9,8 @@ export const Footer = () => {
             Hirvana
           </a>
           <p>
-           Hirvana is a mixture of AI Powered tools and the best of the best mentorship cohort
+            Hirvana is a mixture of AI Powered tools and the best of the best
+            mentorship cohort
           </p>
         </div>
 

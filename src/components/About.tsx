@@ -19,21 +19,29 @@ export const About = () => {
                 </span>
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                <strong>Hirvana is your AI-powered career copilot + human mentorship platform.</strong><br />
-                It helps you discover the right opportunities, improve your application strategy, and accelerate your job readiness with smart tools and personalized guidance.
+                <strong>
+                  Hirvana is your AI-powered career copilot + human mentorship
+                  platform.
+                </strong>
+                <br />
+                It helps you discover the right opportunities, improve your
+                application strategy, and accelerate your job readiness with
+                smart tools and personalized guidance.
               </p>
 
               <p className="text-xl text-muted-foreground mt-4">
-                <strong>✨ AI Resume & Job Assistant</strong><br />
+                <strong>✨ AI Resume & Job Assistant</strong>
+                <br />
               </p>
 
               <p className="text-xl text-muted-foreground mt-4">
-                <strong>🤝 Personalized Mentorship Support</strong><br />
+                <strong>🤝 Personalized Mentorship Support</strong>
+                <br />
               </p>
 
-
               <p className="text-xl text-muted-foreground mt-4">
-                Whether you're starting out or switching paths, Hirvana empowers you to take the next big step in your career.
+                Whether you're starting out or switching paths, Hirvana empowers
+                you to take the next big step in your career.
               </p>
             </div>
             {/* <Statistics /> */}
