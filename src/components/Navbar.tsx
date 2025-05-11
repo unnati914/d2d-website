@@ -15,7 +15,7 @@ import {
 import { ChatBubbleIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
-import { ModeToggle } from "./mode-toggle";
+// import { ModeToggle } from "./mode-toggle";
 
 interface RouteProps {
   href: string;
@@ -39,7 +39,7 @@ export const Navbar = () => {
 
           {/* Mobile Menu */}
           <span className="flex md:hidden">
-            <ModeToggle />
+            {/* <ModeToggle /> */}
 
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger className="px-2">
@@ -106,7 +106,7 @@ export const Navbar = () => {
               HELLO!
             </a> */}
 
-            <ModeToggle />
+            {/* <ModeToggle /> */}
 
             {/* Join the Waitlist Button (Desktop only) */}
             <a
