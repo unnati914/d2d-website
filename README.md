@@ -35,13 +35,6 @@ After running these commands, proceed with the following steps:
    git commit -am "<message>" -S
    ```
 
-6. Push the changes to the `stage` branch:
-   ```
-   git push stage
-   ```
-
-**Note:** Ensure that you are on the correct branch (`stage`) before pushing the changes.
-
 Please refer to the documentation for more details on each command and its usage.
 
 Thank you!
