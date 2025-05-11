@@ -66,7 +66,6 @@ export const FAQ = () => {
             <AccordionTrigger className="text-left">
               {question}
             </AccordionTrigger>
-
             <AccordionContent>{answer}</AccordionContent>
           </AccordionItem>
         ))}
@@ -75,7 +74,7 @@ export const FAQ = () => {
       <h3 className="font-medium mt-4">
         Still have questions?{" "}
         <a
-          href="#"
+          href="mailto:preparewithhirvana@gmail.com?subject=Question%20about%20Hirvana"
           className="text-primary transition-all border-primary hover:border-b-2"
         >
           Contact us

@@ -113,7 +113,7 @@ export const Footer = () => {
       </section>
 
       <section className="container pb-14 text-center">
-        <h3>&copy; 2024 Hirvana : Hirvana | All rights reserved.</h3>
+        <h3>&copy; 2025 Hirvana : Hirvana | All rights reserved.</h3>
       </section>
     </footer>
   );
